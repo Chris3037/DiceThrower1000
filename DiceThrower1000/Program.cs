@@ -32,6 +32,7 @@ namespace DiceThrower1000
             //Prints Results: <randomSide>
             Console.WriteLine("Throwing: " + diceString);
             Console.Write("Results: ");
+            //Create a for loop that counts the number of dice rolls
             for (int i = 1; i <= myDice; i++)
             {
                 //Plugs in random number from 1 to the number of sides
